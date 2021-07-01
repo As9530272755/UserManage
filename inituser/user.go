@@ -1,10 +1,10 @@
 package inituser
 
 type User struct {
-	Id   int
-	Name string
-	Tel  string
-	Addr string
+	Id   int    `json:"id"`
+	Name string `json:"name"`
+	Tel  string `json:"tel"`
+	Addr string `json:"addr"`
 }
 
 var UserList []User
